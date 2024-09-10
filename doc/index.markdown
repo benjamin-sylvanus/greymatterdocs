@@ -24,16 +24,19 @@ Welcome to the official documentation for Our Product. Here you'll find comprehe
 
 - [Getting Started Guide](docs/getting-started)
 
-### Installation
+### Data Access
 
-- [Windows Installation](docs/installation/windows)
-- [Mac Installation](docs/installation/mac)
-- [Linux Installation](docs/installation/linux)
+- [SWC-H01 Data Access](docs/data-access/swc-h01)
+- [NeuroMorpho](docs/data-access/neuromorpho)
 
-### Configuration
+### FixCell
 
-- [Basic Settings](docs/configuration/basic-settings)
-- [Advanced Settings](docs/configuration/advanced-settings)
+- [FixCell Overview](docs/fixcell)
+- [Algorithm Overview](docs/fixcell/algorithm-overview)
+
+### Simulation
+
+- [Simulation Configuration](docs/simulate)
 
 ---
 

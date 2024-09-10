@@ -36,3 +36,16 @@ footer_content: 'Copyright &copy; 2024 Benjamin Sylvanus. Distributed by an <a h
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+# Add this under the existing nav configuration
+nav:
+  - Home: "/"
+  - Getting Started: "/docs/getting-started"
+  - Data Access: "/docs/data-access"
+  - FixCell: "/docs/fixcell"
+  - Simulation: "/docs/simulate"
+
+# Add these lines
+compress_html:
+  ignore:
+    envs: all

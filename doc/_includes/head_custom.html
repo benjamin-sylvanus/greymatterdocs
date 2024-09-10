@@ -1,0 +1,33 @@
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+        var hash = decodeURIComponent(window.location.hash.substring(1));
+        var details = Array.from(document.querySelectorAll('details')).find(el => 
+            el.querySelector('summary').textContent.trim().toLowerCase() === hash.toLowerCase()
+        );
+        
+        if (details) {
+            details.setAttribute('open', '');
+            setTimeout(() => {
+                details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+        }
+    }
+});
+</script>
