@@ -30,4 +30,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+</script><!-- Add this line if it's not already present -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var scripts = document.getElementsByTagName('script');
+        for (var i = 0; i < scripts.length; i++) {
+            if (scripts[i].type === 'text/javascript') {
+                eval(scripts[i].innerHTML);
+            }
+        }
+    });
 </script>

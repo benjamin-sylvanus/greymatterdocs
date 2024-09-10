@@ -8,6 +8,15 @@ permalink: /docs/simulate/
 
 # Simulation
 
+<nav>
+  <ul>
+    <li><strong>Simulate</strong></li>
+    <li><a href="{{ site.baseurl }}/docs/simulate/parameters/">Simulation Parameters</a></li>
+    <li><a href="{{ site.baseurl }}/docs/simulate/boundaryconditions/">Boundary Conditions</a></li>
+    <li><a href="{{ site.baseurl }}/docs/simulate/particle_simulation/">Particle Simulation</a></li>
+  </ul>
+</nav>
+
 This section covers the configuration and parameters for running simulations.
 
 ## Key Equations
@@ -151,3 +160,10 @@ Sets the directory for saving simulation results.
 Option to save all particle location data.
 
 </details>
+
+<nav>
+  <ul>
+    <li><a href="{{ site.baseurl }}/">Back to Main</a></li>
+    <li><a href="{{ site.baseurl }}/docs/simulate/parameters/">Next: Simulation Parameters</a></li>
+  </ul>
+</nav>

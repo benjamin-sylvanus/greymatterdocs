@@ -43,7 +43,11 @@ nav:
   - Getting Started: "/docs/getting-started"
   - Data Access: "/docs/data-access"
   - FixCell: "/docs/fixcell"
-  - Simulation: "/docs/simulate"
+  - Simulation:
+      - Overview: "/docs/simulate/"
+      - Parameters: "/docs/simulate/parameters/"
+      - Boundary Conditions: "/docs/simulate/boundaryconditions/"
+      - Particle Simulation: "/docs/simulate/particle_simulation/"
 
 # Add these lines
 compress_html:
