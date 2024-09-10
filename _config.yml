@@ -1,0 +1,38 @@
+title: Greymatter Docs
+description: Documentation for Greymatter 
+baseurl: "/greymatterdocs" # the subpath of your site, e.g. /blog
+url: "https://benjamin-sylvanus.github.io" # the base hostname & protocol for your site
+
+# Build settings
+# theme: just-the-docs
+plugins:
+  - jekyll-feed
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: just-the-docs/just-the-docs
+
+# Theme settings
+color_scheme: dark
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/benjamin-sylvanus/greymatterdocs"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Sort order for navigation links
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer content appears at the bottom of every page's main content
+footer_content: 'Copyright &copy; 2024 Benjamin Sylvanus. Distributed by an <a href="https://github.com/benjamin-sylvanus/greymatterdocs/tree/main/LICENSE.txt">MIT license.</a>'
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
