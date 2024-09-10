@@ -8,7 +8,7 @@ permalink: /docs/simulate/particle_simulation/
 
 # Particle Simulation
 
-This section demonstrates a detailed 3D particle simulation showcasing reflective boundary conditions with velocity and reflection indicators.
+Semi-realistic particle Monte Carlo simulation. _(Work in progress)_
 
 <div id="simulation-container" style="width: 500px; height: 500px; margin: 0 auto;"></div>
 
@@ -24,8 +24,6 @@ In this simulation:
 3. **Reflective Boundaries**: When a particle hits a wall, it bounces back, reversing its velocity in that dimension.
 4. **Velocity Indicators**: Green arrows show the current velocity of each particle.
 5. **Reflection Indicators**: Red arrows briefly appear when a particle reflects off a wall, showing the new direction.
-
-This model demonstrates how boundary conditions can be implemented in a simulation. In more complex neuroscience simulations, similar principles can be applied to represent biological constraints, such as cell membranes or tissue boundaries.
 
 <nav>
   <ul>
